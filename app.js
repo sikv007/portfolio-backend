@@ -9,7 +9,7 @@ app.use("/api/socials", socialsRouter);
 app.use(cors());
 app.use(express.static("./static"));
 
-app.route("/").get((_, res) => {
+app.route("/").get((req, res) => {
   res.status(200).json({
     status: "success",
     message: "Hello!",
