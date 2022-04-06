@@ -4,8 +4,7 @@ import { corsOptions } from "./config.js";
 
 const app = express();
 
-if (process.env.NODE_ENV === "production") app.use(cors(corsOptions));
-if (process.env.NODE_ENV === "development") app.use(cors());
+app.use(cors(corsOptions));
 
 app.use(express.static("./static"));
 
