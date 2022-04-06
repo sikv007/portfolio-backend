@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sikv007/portfolio-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sikv007/portfolio-backend/issues"
+  },
+  "homepage": "https://github.com/sikv007/portfolio-backend#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^5.13.14"
+  }
+}
