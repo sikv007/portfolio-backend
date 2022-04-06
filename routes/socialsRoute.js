@@ -1,8 +1,8 @@
 import express from "express";
-import { getAll } from "../controllers/socialsController.js";
+import { getSocials } from "../controllers/socialsController.js";
 
 const router = express.Router();
 
-router.route("/").get(getAll);
+router.route("/").get(getSocials);
 
 export default router;
