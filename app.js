@@ -1,10 +1,9 @@
 import express from "express";
 import cors from "cors";
-import { corsOptions } from "./config.js";
 
 const app = express();
 
-app.use(cors(corsOptions));
+app.use(cors());
 
 app.use(express.static("./static"));
 
