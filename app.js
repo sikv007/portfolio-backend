@@ -1,12 +1,15 @@
 import express from "express";
+import cors from "cors";
 
 const app = express();
 
-app.route("/").get((req,res)=>{
+app.use(cors());
+
+app.route("/").get((req, res) => {
   res.status(200).json({
     status: "sucess",
-    message: "Hello!"
-  })
-})
+    message: "Hello!",
+  });
+});
 
 export default app;
