@@ -9,3 +9,4 @@ export const getCSS = (req,res) => {
 export const getJS = (req,res) => {
   res.sendFile("./public/frontend/src/js/index.js", { root: "./" });
 }
+
